@@ -12,7 +12,72 @@
     <title>Rahul Reddy Chada</title>
       
       <style type = "text/css">
+          
+          h1{
+              font-family: proxima-nova, sans-serif;
+              font-style: normal;
+              font-weight: 100;
+          }
+          p{
+              color: white;
+              
+              position: relative;
+              float: right;
+          }
       
+          #main-page {
+                background-color: #292929;
+              position: fixed;
+              width: 100%;
+              height: 100%;
+          }
+          
+          ul {
+                list-style-type: none;
+              padding: 0;
+              margin: 0;
+              
+          }
+          
+          li {
+              float: left;
+          }
+          
+          .main-nav ul li::before{
+              content:'/';
+              color: white;
+              padding:0 12px 0 9px;
+          }
+          
+          .main-nav ul li:first-child::before{
+              display:none;
+          }
+          
+          .text-color--white {
+              color: #FFFFFF;
+          }
+          
+          a:hover { 
+            color: #F7484E;
+              outline: 0;
+        }
+          a { 
+                color: #F7484E;
+              font-family: proxima-nova, sans-serif;
+              font-style: normal;
+              font-weight: 300;
+        }
+          
+          .underlined--white:hover{
+              display: inline-block;
+              text-decoration: none;
+              position:relative;
+              left:0;
+              right:0;
+              bottom:-.05em;
+              border-bottom:2px solid;
+              border-color:#fff;
+          }
           
           
       </style>
@@ -21,23 +86,36 @@
     
   <body>
       
-        <div id = "wrapper">
+<div id = "wrapper">
+    
+    <div id = "main-page">
+    
+    <div id = "home-text">
+        <a class = "text-color--white" style = "text-decoration: none" href = "#"><h1>Rahul Reddy Chada</h1></a>
+        </div>
+    
       
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Rahul Reddy Chada</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="about.html">About</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    <a class="nav-item nav-link" href="projects.html">Projects</a>
-              </div>
-            </div>
-</nav>
-      
-      </div>
+    <nav class="main-nav text-color--red">
+              <ul class = "horizontal-list">
+                <li>
+                  <a class="underlined--white" href = "#about">ABOUT</a></li>
+                  <li>
+                  <a class="underlined--white" href = "#projects">PROJECTS</a></li>
+                  <li>
+                  <a class="underlined--white" href = "#contact">CONTACT</a>
+                  </li>
+                <li>
+                  <a class="underlined--white" href = "#memories">MEMORIES</a></li>
+                </ul>
+    </nav>
+        
+            <div>  <p> Site Under Construction</p></div> 
+
+        </div>
+    
+       
+                   
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
