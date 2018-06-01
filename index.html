@@ -11,76 +11,8 @@
 
     <title>Rahul Reddy Chada</title>
       
-      <style type = "text/css">
-          
-          h1{
-              font-family: proxima-nova, sans-serif;
-              font-style: normal;
-              font-weight: 100;
-          }
-          p{
-              color: white;
-              
-              position: relative;
-              float: right;
-          }
+    <link rel="stylesheet" type="text/css" href="style/css/input.css">
       
-          #main-page {
-                background-color: #292929;
-              position: fixed;
-              width: 100%;
-              height: 100%;
-          }
-          
-          ul {
-                list-style-type: none;
-              padding: 0;
-              margin: 0;
-              
-          }
-          
-          li {
-              float: left;
-          }
-          
-          .main-nav ul li::before{
-              content:'/';
-              color: white;
-              padding:0 12px 0 9px;
-          }
-          
-          .main-nav ul li:first-child::before{
-              display:none;
-          }
-          
-          .text-color--white {
-              color: #FFFFFF;
-          }
-          
-          a:hover { 
-            color: #F7484E;
-              outline: 0;
-        }
-          a { 
-                color: #F7484E;
-              font-family: proxima-nova, sans-serif;
-              font-style: normal;
-              font-weight: 300;
-        }
-          
-          .underlined--white:hover{
-              display: inline-block;
-              text-decoration: none;
-              position:relative;
-              left:0;
-              right:0;
-              bottom:-.05em;
-              border-bottom:2px solid;
-              border-color:#fff;
-          }
-          
-          
-      </style>
       
   </head>
     
@@ -89,10 +21,12 @@
 <div id = "wrapper">
     
     <div id = "main-page">
-    
-    <div id = "home-text">
-        <a class = "text-color--white" style = "text-decoration: none" href = "#"><h1>Rahul Reddy Chada</h1></a>
-        </div>
+        <section class="fullpage-section block block--hero background-color--dark-grey" data-viewport-height="100">
+        <img src="images/bg5.jpg" class="bg">
+    <div id = "container">
+        <h1 class = "whiteLine">Rahul Reddy Chada</h1>
+        <h3>Undergrad at IIT Roorkee</h3>
+    </div>
     
       
     <nav class="main-nav text-color--red">
@@ -108,9 +42,11 @@
                   <a class="underlined--white" href = "#memories">MEMORIES</a></li>
                 </ul>
     </nav>
+        </section>
         
-            <div>  <p> Site Under Construction</p></div> 
-
+        <section data-id="about" class="fullpage-section block block--about chapter" data-viewport-min-height="100">
+            
+        </section>
         </div>
     
        
