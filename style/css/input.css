@@ -1,17 +1,31 @@
-img.bg {
-  min-height: 100%;
-  min-width: 1024px;
+body {
   width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0; }
+  min-height: 100%;
+  padding: 0;
+  margin: 0; }
+
+#wrapper {
+  height: 100%; }
+
+.fullpage-section {
+  width: 100%;
+  height: 100%; }
+
+img.bg {
+  height: 100vh;
+  width: 100%;
+  display: block; }
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #main-page {
   background-color: #292929;
-  position: fixed;
-  width: 100%;
-  height: 100%; }
+  height: 100vh; }
 
 #container {
   color: white;
@@ -23,9 +37,21 @@ img.bg {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -50px;
+  margin-top: -100px;
   margin-left: -200px;
   text-align: center; }
+
+.disable-selection {
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer */
+  -khtml-user-select: none;
+  /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none;
+  /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none;
+  /* Disable Android and iOS callouts*/ }
 
 ul {
   list-style-type: none;
@@ -36,9 +62,9 @@ li {
   float: left; }
 
 .main-nav {
-  width: 400px;
+  width: 500px;
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 50%;
   margin-left: -200px;
   vertical-align: middle; }
@@ -66,7 +92,7 @@ a {
   color: #F7484E;
   font-family: proxima-nova, sans-serif;
   font-style: normal;
-  font-weight: 300; }
+  font-weight: 600; }
 
 .underlined--white:hover {
   display: inline-block;
@@ -74,14 +100,75 @@ a {
   position: relative;
   left: 0;
   right: 0;
-  bottom: -.1em;
+  bottom: -.2em;
   border-bottom: 2px solid;
   border-color: #fff; }
 
 h1 {
-  border: 2px solid;
+  border-bottom: 2px solid;
   border-color: white;
-  padding: 5px;
+  padding: 0px 2px 8px 2px;
+  margin-top: -5px;
   margin-bottom: 10px; }
+
+.section-about {
+  width: 100%;
+  height: 101vh; }
+
+.about-title {
+  float: left;
+  width: 50%;
+  height: 101vh;
+  background-color: #F7484E;
+  color: white; }
+
+.about-intro {
+  float: right;
+  width: 50%;
+  height: 1000px;
+  padding: 100px 50px 50px 50px;
+  z-index: 1000; }
+
+.fontfix {
+  font-family: proxima-nova, sans-serif;
+  font-size: 300%;
+  font-style: normal;
+  font-weight: 100; }
+
+.align-center {
+  width: 50px;
+  position: relative;
+  align: center;
+  vertical-align: middle;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -50px; }
+
+.section-projects {
+  width: 100%;
+  height: 100vh; }
+
+.projects-title {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: white; }
+
+.projects-intro {
+  width: 50%;
+  min-height: 100vh; }
+
+.progress-container {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 8px;
+  background: #111F22; }
+
+.progress-bar {
+  height: 8px;
+  background: #FFA54F;
+  width: 0%; }
 
 /*# sourceMappingURL=input.css.map */
