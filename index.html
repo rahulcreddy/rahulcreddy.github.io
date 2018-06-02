@@ -13,60 +13,115 @@
       
     <link rel="stylesheet" type="text/css" href="style/css/input.css">
       
-      
   </head>
     
-  <body>
+  <body data-spy="scroll" data-target="#-" data-offset="20">
+      
+      <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
       
 <div id = "wrapper">
-    
     <div id = "main-page">
-        <section class="fullpage-section block block--hero background-color--dark-grey" data-viewport-height="100">
-        <img src="images/bg5.jpg" class="bg">
-    <div id = "container" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" 
- unselectable="on"
- onselectstart="return false;" 
- onmousedown="return false;">
-        <h1 class = "whiteLine">Rahul Reddy Chada</h1>
-        <h3>Undergrad at IIT Roorkee</h3>
-    </div>
-    
-      
-    <nav class="main-nav text-color--red">
-              <ul class = "horizontal-list">
-                <li>
-                  <a class="underlined--white" href = "#about">ABOUT</a></li>
-                  <li>
-                  <a class="underlined--white" href = "#projects">PROJECTS</a></li>
-                  <li>
-                  <a class="underlined--white" href = "#contact">CONTACT</a>
-                  </li>
-                <li>
-                  <a class="underlined--white" href = "#memories">MEMORIES</a></li>
-                </ul>
-    </nav>
-        </section>
         
-        <section data-id="about" class="fullpage-section block block--about chapter" data-viewport-min-height="100">
+        <section class="fullpage-section block block--hero background-color--dark-grey" data-viewport-height="100">
+                <div class="parallax">
+                    <img src="images/bg5.jpg" class="bg">
+                </div>
+                    <div id = "container" class = "disable-selection">
+                        <h1 class = "whiteLine">Rahul Reddy Chada</h1>
+                        
+                    </div>
+
+
+                    <nav class="main-nav text-color--red" id = "myScrollspy">
+                              <ul class = "horizontal-list">
+                                <li>
+                                  <a class="underlined--white scroll" href = "#about">ABOUT</a></li>
+                                  <li>
+                                  <a class="underlined--white scroll" href = "#projects">PROJECTS</a></li>
+                                  <li>
+                                  <a class="underlined--white scroll" href = "#contact">CONTACT</a>
+                                  </li>
+                                <li>
+                                  <a class="underlined--white scroll" href = "#memories">MEMORIES</a></li>
+                                </ul>
+                    </nav>
             
         </section>
-        </div>
+        
+        <section id="about" data-viewport-min-height="100">
+            <div class = "fullpage-section section-about">
+                <div class = "about-title">
+                    <h2 class = "align-center fontfix">About</h2>
+                </div>
+                <div class = "about-intro" id = "about-intro">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at turpis ac ligula eleifend sagittis nec non ipsum. Suspendisse sed pharetra lorem. Aliquam pellentesque lorem at lectus aliquet facilisis. Quisque nisi orci, imperdiet vitae sagittis et, ultricies sed orci. Maecenas posuere rhoncus elit sit amet auctor. In ornare venenatis metus nec mattis. Ut quis tellus ipsum. Quisque scelerisque, urna in placerat ultricies, lacus massa interdum diam, ultricies cursus velit nibh a nulla. Quisque convallis vel neque eu ullamcorper. Proin tempor at nisl molestie lacinia. Nulla vitae sollicitudin eros. Fusce justo turpis, varius a arcu quis, ornare finibus est. Nulla vitae libero nisl.
+
+Fusce et velit nibh. Cras imperdiet massa ac viverra vulputate. Maecenas rhoncus neque nec odio ultrices, at lobortis sem laoreet. Nulla et quam scelerisque, bibendum turpis at, vehicula dolor. Mauris ac metus felis. Sed fringilla eleifend ultricies. Fusce ante dolor, pharetra at dictum at, imperdiet a diam. Ut sed lorem est. Sed in pulvinar ligula. Curabitur commodo metus a egestas ullamcorper. Mauris hendrerit sem id arcu pretium, eu euismod arcu varius. Praesent et lorem id erat molestie mattis vel nec mauris. Integer consectetur risus at libero consequat consequat. Integer molestie efficitur sapien sed tempus.
+
+Aliquam nisl eros, pharetra quis vestibulum eu, lobortis sed arcu. Mauris dictum dui sed diam interdum gravida in at turpis. Aenean sed orci quis urna tempus euismod vel ut sapien. Ut posuere diam enim, quis laoreet mauris lacinia vel. Mauris ut massa nec arcu auctor semper. Nulla eu elit posuere, scelerisque risus sit amet, tincidunt lectus. Sed hendrerit elementum nisi in pellentesque. Fusce eleifend erat laoreet imperdiet venenatis.
+
+Etiam sit amet metus magna. Curabitur ac leo vitae lectus feugiat vulputate. Aenean egestas tempor orci sit amet vehicula. Ut accumsan sit amet massa ut eleifend. Vivamus in magna elit. Integer rhoncus, metus eget sodales egestas, ligula risus euismod nisi, eget egestas sem leo in arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse at viverra diam. Sed ut nunc vitae nunc pretium imperdiet. Vivamus non ornare elit. Pellentesque ac eros non nunc dignissim volutpat eu sit amet ipsum. Nulla luctus molestie erat vitae sagittis. Fusce dolor felis, ullamcorper at libero efficitur, maximus tincidunt massa. Nulla vitae elit massa.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at turpis ac ligula eleifend sagittis nec non ipsum. Suspendisse sed pharetra lorem. Aliquam pellentesque lorem at lectus aliquet facilisis. Quisque nisi orci, imperdiet vitae sagittis et, ultricies sed orci. Maecenas posuere rhoncus elit sit amet auctor. In ornare venenatis metus nec mattis. Ut quis tellus ipsum. Quisque scelerisque, urna in placerat ultricies, lacus massa interdum diam, ultricies cursus velit nibh a nulla. Quisque convallis vel neque eu ullamcorper. Proin tempor at nisl molestie lacinia. Nulla vitae sollicitudin eros. Fusce justo turpis, varius a arcu quis, ornare finibus est. Nulla vitae libero nisl.
+
+Fusce et velit nibh. Cras imperdiet massa ac viverra vulputate. Maecenas rhoncus neque nec odio ultrices, at lobortis sem laoreet. Nulla et quam scelerisque, bibendum turpis at, vehicula dolor. Mauris ac metus felis. Sed fringilla eleifend ultricies. Fusce ante dolor, pharetra at dictum at, imperdiet a diam. Ut sed lorem est. Sed in pulvinar ligula. Curabitur commodo metus a egestas ullamcorper. Mauris hendrerit sem id arcu pretium, eu euismod arcu varius. Praesent et lorem id erat molestie mattis vel nec mauris. Integer consectetur risus at libero consequat consequat. Integer molestie efficitur sapien sed tempus.
+
+Aliquam nisl eros, pharetra quis vestibulum eu, lobortis sed arcu. Mauris dictum dui sed diam interdum gravida in at turpis. Aenean sed orci quis urna tempus euismod vel ut sapien. Ut posuere diam enim, quis laoreet mauris lacinia vel. Mauris ut massa nec arcu auctor semper. Nulla eu elit posuere, scelerisque risus sit amet, tincidunt lectus. Sed hendrerit elementum nisi in pellentesque. Fusce eleifend erat laoreet imperdiet venenatis.
+
+Etiam sit amet metus magna. Curabitur ac leo vitae lectus feugiat vulputate. Aenean egestas tempor orci sit amet vehicula. Ut accumsan sit amet massa ut eleifend. Vivamus in magna elit. Integer rhoncus, metus eget sodales egestas, ligula risus euismod nisi, eget egestas sem leo in arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse at viverra diam. Sed ut nunc vitae nunc pretium imperdiet. Vivamus non ornare elit. Pellentesque ac eros non nunc dignissim volutpat eu sit amet ipsum. Nulla luctus molestie erat vitae sagittis. Fusce dolor felis, ullamcorper at libero efficitur, maximus tincidunt massa. Nulla vitae elit massa.</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" data-viewport-min-height="100">
+            <div class = "fullpage-section section-about">
+                <div class = "projects-title">
+                    <h2 class = "align-center">Projects</h2>
+                    </div>
+                <div class = "projects-intro">
+                    
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" data-viewport-min-height="100">
+            <div class = "fullpage-section section-about">
+                <div class = "section-title">
+                    <h2>About</h2>
+                    </div>
+                <div class = "section-intro">
+                    
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="memories" data-viewport-min-height="100">
+            <div class = "fullpage-section section-about">
+                <div class = "section-title">
+                    <h2>About</h2>
+                    </div>
+                <div class = "section-intro">
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </div>
     
        
                    
 </div>
-
+          
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
           
-      
-      <script type="text/javascript">
-      
-      
-      </script>
+      <script src="script/script.js"></script>
           
   </body>
 </html>
