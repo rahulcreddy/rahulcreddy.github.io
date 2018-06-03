@@ -138,17 +138,6 @@ h1 {
   height: 100vh;
   position: relative; }
 
-.projects-title {
-  position: relative;
-  float: left;
-  width: 50%;
-  height: 100vh;
-  background-color: white; }
-
-.projects-intro {
-  width: 50%;
-  min-height: 100vh; }
-
 .progress-container {
   position: fixed;
   z-index: 5;
@@ -182,7 +171,12 @@ h1 {
   width: 50%;
   float: right;
   background-color: #F7484E;
-  padding: 100px 50px 0px 50px; }
+}
+
+.project-intro .img {
+ height : 250px;
+  width : 100%;
+}
 
 .project-width {
   width: 50%;
