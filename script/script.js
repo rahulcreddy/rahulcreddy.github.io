@@ -35,7 +35,7 @@ var b = $("#about-intro").offset().top;
 })
 
 
-*/
+
 
 window.onscroll = function() {myFunction()};
 
@@ -44,4 +44,48 @@ function myFunction() {
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
+}
+*/
+
+
+var startFix = $('.section-about').offset().top;
+var stopFix = $('.section-about').offset().top + $('#about-intro').outerHeight() - 625;
+
+$(document).scroll(fixing).scroll();
+
+//$(window).on('resize', fixing});
+//$(document).scroll(function(){});
+
+$(window).on('resize', function(){
+    
+      var win = $(this); //this = window
+    var z = win.scrollTop();
+    
+    if(z >= startFix){
+        $('#about-title').addClass('title-fixed');
+        
+        if(z >= stopFix){
+            $('#about-title').removeClass('title-fixed');
+            $('#about-title').css('top', 1550);
+        }
+    }else {
+        $('#about-title').removeClass('title-fixed');
+    }
+});
+
+    
+    function fixing(){
+    
+    var y = $(window).scrollTop();
+    
+    if(y >= startFix){
+        $('#about-title').addClass('title-fixed');
+        $('.about-title').css('top', 0);
+        if(y >= stopFix){
+            $('#about-title').removeClass('title-fixed');
+            $('.about-title').css('top', 1000);
+        }
+    }else {
+        $('#about-title').removeClass('title-fixed');
+    }
 }

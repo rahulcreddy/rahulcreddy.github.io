@@ -12,51 +12,53 @@
     <title>Rahul Reddy Chada</title>
       
     <link rel="stylesheet" type="text/css" href="style/css/input.css">
-    
-    <script src="script/script.js"></script>
+      
+       <script type = "text/javascript" src = "script/script.js">
+           
+      </script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       
+      
   </head>
     
-  <body data-spy="scroll" data-target="#-" data-offset="20">
+    
+    
+  <body>
       
-      <div class="progress-container">
+      <!-- <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
-  </div>  
+  </div>  -->
       
 <div id = "wrapper">
     <div id = "main-page">
         
-        <section class="fullpage-section block block--hero background-color--dark-grey" data-viewport-height="100">
-                <div class="parallax">
-                    <img src="images/bg5.jpg" class="bg">
+        <section class="fullpage-section">
+            
+                <img src="images/bg5.jpg" class="bg">
+                <div id = "main-text" class = "disable-selection">
+                    <h1 class = "whiteLine">Rahul Reddy Chada</h1>
                 </div>
-                    <div id = "container" class = "disable-selection">
-                        <h1 class = "whiteLine">Rahul Reddy Chada</h1>
-                        
-                    </div>
 
-
-                    <nav class="main-nav text-color--red" id = "myScrollspy">
-                              <ul class = "horizontal-list">
-                                <li>
-                                  <a class="underlined--white scroll" href = "#about">ABOUT</a></li>
-                                  <li>
-                                  <a class="underlined--white scroll" href = "#projects">PROJECTS</a></li>
-                                  <li>
-                                  <a class="underlined--white scroll" href = "#contact">CONTACT</a>
-                                  </li>
-                                <li>
-                                  <a class="underlined--white scroll" href = "#memories">MEMORIES</a></li>
-                                </ul>
-                    </nav>
+                <nav class="main-nav text-color--red">
+                    <ul class = "horizontal-list">
+                        <li>
+                            <a class="underlined--white link-color" href = "#about">ABOUT</a></li>
+                        <li>
+                            <a class="underlined--white link-color" href = "#projects">PROJECTS</a></li>
+                        <li>
+                            <a class="underlined--white link-color" href = "#contact">CONTACT</a>
+                        </li>
+                        <li>
+                            <a class="underlined--white link-color" href = "#memories">MEMORIES</a></li>
+                    </ul>
+                </nav>
             
         </section>
         
-        <section id="about" data-viewport-min-height="100">
-            <div class = "fullpage-section section-about">
-                <div class = "about-title">
+        <section id="about" class = "fullpage--section chapter">
+            <div class = "section-about">
+                <div class = "about-title" id = "about-title">
                     <h2 class = "align-center fontfix">About</h2>
                 </div>
                 <div class = "about-intro" id = "about-intro">
@@ -78,22 +80,26 @@ Etiam sit amet metus magna. Curabitur ac leo vitae lectus feugiat vulputate. Aen
             </div>
         </section>
         
-        <section id="projects" data-viewport-min-height="100">
-            <div class = "fullpage-section section-about">
+        <section id="projects" class = "fullpage--section">
+            <div class = "section-projects">
                 <div class = "projects-title">
                     <h2 class = "align-center">Projects</h2>
                     </div>
                 <div class = "projects-intro">
                     
+                    <div class = "project-width"><p>Project1</p></div>
+                    <div class = "project-width"><p>Project1</p></div>
+                    <div class = "project-width"><p>Project1</p></div>
+                    <div class = "project-width"><p>Project1</p></div>
                     
                 </div>
             </div>
         </section>
         
-        <section id="contact" data-viewport-min-height="100">
-            <div class = "fullpage-section section-about">
+        <section id="contact" class = "chapter" data-viewport-min-height="100">
+            <div class = "fullpage-section">
                 <div class = "section-title">
-                    <h2>About</h2>
+                    <h2>Contact</h2>
                     </div>
                 <div class = "section-intro">
                     
@@ -102,8 +108,8 @@ Etiam sit amet metus magna. Curabitur ac leo vitae lectus feugiat vulputate. Aen
             </div>
         </section>
         
-        <section id="memories" data-viewport-min-height="100">
-            <div class = "fullpage-section section-about">
+        <section id="memories" class = "chapter" data-viewport-min-height="100">
+            <div class = "fullpage-section">
                 <div class = "section-title">
                     <h2>About</h2>
                     </div>
@@ -120,12 +126,13 @@ Etiam sit amet metus magna. Curabitur ac leo vitae lectus feugiat vulputate. Aen
 </div>
           
     <!-- Optional JavaScript -->
+           <script src="script/script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-          -->
-      
+          
+ -->
           
   </body>
 </html>
