@@ -153,24 +153,6 @@ h1 {
 	margin-top : -35vh;
 }
 
-.section-projects {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-.projects-title {
-    position: relative;
-	float : left;
-	width: 50%;
-	height: 100vh;
-	background-color : white;
-	}
-	
-.projects-intro {
-	width : 50%;
-	min-height : 100vh;
-	}
 
 .progress-container {
     position: fixed;
@@ -194,28 +176,46 @@ z-index: 5;
 }
 
 .section-projects {
-    display: table;
-    z-index : 500;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
 .projects-title {
 	float : left;
 	width: 50%;
-    height: 150vh;
-	background-color : #fff;
-	color : white;
+	height: 100vh;
+	background-color : white;
+    color: black;
+    z-index: 600;
 	}
-
 	
+
 .projects-intro {
 	width : 50%;
     float: right;
     background-color : #F7484E;
-	padding : 100px 50px 0px 50px;
+    padding: 0px;
+    overflow: hidden;
 	}
 
 .project-width {
-    width : 50%;
-    height : 50vh;
-    color: aqua;
+    height : 102vh;
+    overflow: hidden;
+}
+
+.project-image {
+    width : 100%;
+    padding: 0px;
+    overflow: hidden;
+     -moz-transition: all 5s;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+.project-image:hover {
+    -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+    
 }
