@@ -95,7 +95,7 @@ a {
 #facebook:hover {
   right: 0px; }
 
-#insta {
+#linkedin {
   width: 200px;
   padding: 10px;
   position: fixed;
@@ -104,9 +104,10 @@ a {
   background-color: #007bb6;
   display: table-row; }
 
-#insta:hover {
+#linkedin:hover {
   right: 0px; }
 
+/*
 #twitter {
   width: 200px;
   padding: 10px;
@@ -118,13 +119,13 @@ a {
 
 #twitter:hover {
   right: 0px; }
-
+*/
 #mail {
   width: 200px;
   padding: 10px;
   position: fixed;
   right: -150px;
-  top: 340px;
+  top: 285px;
   background-color: #c71610;
   display: table-row; }
 
@@ -170,5 +171,19 @@ footer {
   /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none;
   /* Disable Android and iOS callouts*/ }
+#twitter-container{
+    width: 600px;
+    height: 440px;
+    overflow: scroll;
+    position: fixed;
+    top: 160px;
+    right: 100px;
+}
+
+#follow-twitter {
+    position: fixed;
+    top : 180px;
+    right: 150px;
+}
 
 /*# sourceMappingURL=input.css.map */
