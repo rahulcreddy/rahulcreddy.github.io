@@ -172,18 +172,19 @@ footer {
   -webkit-touch-callout: none;
   /* Disable Android and iOS callouts*/ }
 #twitter-container{
-    width: 600px;
+    width: 40%;
     height: 440px;
     overflow: scroll;
-    position: fixed;
-    top: 160px;
+    position: absolute;
+    top: 260px;
     right: 100px;
 }
 
 #follow-twitter {
-    position: fixed;
-    top : 180px;
+    position: absolute;
+    top : 280px;
     right: 150px;
 }
+
 
 /*# sourceMappingURL=input.css.map */
