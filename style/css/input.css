@@ -173,9 +173,9 @@ footer {
   /* Disable Android and iOS callouts*/ }
 #twitter-container{
     width: 40%;
-    height: 440px;
+    height: 420px;
     position: absolute;
-    top: 260px;
+    top: 240px;
     right: 100px;
     overflow: scroll;
 }
