@@ -173,11 +173,11 @@ footer {
   /* Disable Android and iOS callouts*/ }
 #twitter-container{
     width: 40%;
-    height: 400px;
-    position: absolute;
-    top: 220px;
-    right: 100px;
+    height: 420px;  
     overflow: scroll;
+    position: absolute;
+    top: 240px;
+    right: 100px;
 }
 
 #follow-twitter {
