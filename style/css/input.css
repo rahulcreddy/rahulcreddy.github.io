@@ -174,10 +174,10 @@ footer {
 #twitter-container{
     width: 40%;
     height: 440px;
-    overflow: scroll;
     position: absolute;
     top: 260px;
     right: 100px;
+    overflow: scroll;
 }
 
 #follow-twitter {
